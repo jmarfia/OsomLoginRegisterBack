@@ -6,7 +6,6 @@ const userController = require("../controllers/userController");
 const { User } = require("../data/models");
 
 
-console.log("rutas")
   //////////////////////
   // User Controller  //
   //////////////////////

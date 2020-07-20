@@ -17,7 +17,6 @@ let transporter = nodemailer.createTransport({
 
 module.exports = {
   register(req, res) {
-    console.log(req.body);
     let user = new User({
       firstName: req.body.firstName,
       lastName: req.body.lastName,
